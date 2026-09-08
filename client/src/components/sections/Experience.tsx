@@ -8,6 +8,7 @@ function formatDate(dateStr: string, lang: string) {
   return date.toLocaleDateString(lang.startsWith("en") ? "en-US" : "pt-BR", {
     month: "short",
     year: "numeric",
+    timeZone: "UTC",
   });
 }
 
