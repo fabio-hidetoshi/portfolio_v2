@@ -12,7 +12,8 @@ export function Contact() {
 
   function handleChange(field: keyof typeof form) {
     return (e: FormEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-      setForm((prev) => ({ ...prev, [field]: e.currentTarget.value }));
+      const value = e.currentTarget.value;
+      setForm((prev) => ({ ...prev, [field]: value }));
     };
   }
 
