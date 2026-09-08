@@ -9,6 +9,8 @@ import { contactRouter } from "./modules/contact/contact.routes.js";
 
 export const app = express();
 
+app.set("trust proxy", 1);
+
 app.use(cors({ origin: env.CORS_ORIGIN }));
 app.use(express.json());
 
