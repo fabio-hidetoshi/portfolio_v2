@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "cta_projects": "View projects",
+    "cta_contact": "Get in touch",
+    "cta_resume": "Download resume"
+  },
+  "about": {
+    "title": "About",
+    "text": "Backend developer and intelligent systems architect focused on applied AI. I work connecting data pipelines, LLMs, multi-agent systems and integrations with APIs, legacy systems and external services, using Node.js, TypeScript and Python. I work with generative AI, including LLMs, RAG and process automation, as well as cloud environments (GCP), Docker and databases like Firestore, MongoDB and Redis. I also have front-end development experience with React and JavaScript."
+  },
+  "experience": {
+    "title": "Experience",
+    "present": "Present",
+    "work": "Work",
+    "education": "Education"
+  },
+  "skills": {
+    "title": "Skills",
+    "categories": {
+      "backend": "Backend",
+      "frontend": "Frontend",
+      "ai": "AI & Automation",
+      "cloud": "Cloud & Infra",
+      "database": "Databases",
+      "tooling": "Tooling"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "view_details": "View details",
+    "view_repo": "View repository",
+    "view_demo": "View demo",
+    "back": "Back",
+    "tech_stack": "Tech stack"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Let's talk? Send me a message.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Send message",
+    "submitting": "Sending...",
+    "success": "Message sent successfully! Thanks for reaching out.",
+    "error": "Couldn't send your message. Please try again."
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}

@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-display: "Fraunces", ui-serif, Georgia, serif;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --color-paper: #f7f3ea;
+  --color-paper-dim: #efe9db;
+  --color-ink: #1c1a16;
+  --color-ink-soft: #55524a;
+  --color-line: #ddd5c2;
+
+  --color-night: #121210;
+  --color-night-dim: #1a1917;
+  --color-fog: #efe9dd;
+  --color-fog-soft: #a9a498;
+  --color-line-dark: #33312b;
+
+  --color-accent: #b3491f;
+  --color-accent-soft: #e8c7ab;
+}
+
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  @apply bg-paper text-ink dark:bg-night dark:text-fog;
+}
+
+::selection {
+  background: var(--color-accent-soft);
+  color: var(--color-ink);
+}

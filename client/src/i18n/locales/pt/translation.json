@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "about": "Sobre",
+    "experience": "Experiência",
+    "skills": "Skills",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+  "hero": {
+    "greeting": "Olá, eu sou",
+    "cta_projects": "Ver projetos",
+    "cta_contact": "Falar comigo",
+    "cta_resume": "Baixar currículo"
+  },
+  "about": {
+    "title": "Sobre",
+    "text": "Desenvolvedor backend e arquitetura de sistemas inteligentes com IA aplicada. Trabalho conectando pipelines de dados, LLMs, sistemas multi-agentes e integrações com APIs, sistemas legados e serviços externos, utilizando Node.js, TypeScript e Python. Atuo com IA generativa, incluindo LLMs, RAG e automação de processos, além de ambientes cloud (GCP), Docker e bancos de dados como Firestore, MongoDB e Redis. Também possuo experiência em desenvolvimento front-end com React e JavaScript."
+  },
+  "experience": {
+    "title": "Experiência",
+    "present": "Atual",
+    "work": "Trabalho",
+    "education": "Formação"
+  },
+  "skills": {
+    "title": "Skills",
+    "categories": {
+      "backend": "Back-end",
+      "frontend": "Front-end",
+      "ai": "IA & Automação",
+      "cloud": "Cloud & Infra",
+      "database": "Bancos de Dados",
+      "tooling": "Ferramentas"
+    }
+  },
+  "projects": {
+    "title": "Projetos",
+    "view_details": "Ver detalhes",
+    "view_repo": "Ver repositório",
+    "view_demo": "Ver demo",
+    "back": "Voltar",
+    "tech_stack": "Tecnologias"
+  },
+  "contact": {
+    "title": "Contato",
+    "subtitle": "Vamos conversar? Envie uma mensagem.",
+    "name": "Nome",
+    "email": "E-mail",
+    "message": "Mensagem",
+    "submit": "Enviar mensagem",
+    "submitting": "Enviando...",
+    "success": "Mensagem enviada com sucesso! Obrigado pelo contato.",
+    "error": "Não foi possível enviar sua mensagem. Tente novamente."
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados."
+  }
+}
